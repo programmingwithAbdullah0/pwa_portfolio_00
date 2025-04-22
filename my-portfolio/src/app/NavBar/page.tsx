@@ -13,10 +13,10 @@ export default function Navbar() {
 
     return (
         <div>
-            <nav className="text-white shadow-md mt-5">
+            <nav className="shadow-md">
                 <div className="flex justify-between items-center px-6 py-4">
                     {/* Left side logo with margin */}
-                    <div id="logo" className="ml-6 flex items-center space-x-3">
+                    <div id="logo" className="ml-5 flex items-center space-x-3">
                         <Image 
                             src="/logo.jpg"  // Replace with your image path in the 'public' folder
                             alt="Logo"
@@ -28,7 +28,7 @@ export default function Navbar() {
 
                     {/* Hamburger Icon for mobile */}
                     <div className="md:hidden">
-                        <button onClick={toggleMenu} className="text-white">
+                        <button onClick={toggleMenu} className="font-extrabold text-2xl">
                             {menuOpen ? "X" : "☰"}
                         </button>
                     </div>
