@@ -11,11 +11,11 @@ export default function Home() {
 
                 {/* Left side section */}
                 <div className="space-y-4 max-w-2xl text-center md:text-left md:w-1/2 pl-9">
-                    <h3 className="text-4xl font-light text-gray-400">Hi, I&apos;m</h3>
-                    <h1 className="text-5xl font-bold text-white mt-2">Abdullah Ateeq</h1>
-                    <h2 className="text-2xl font-semibold text-white">Frontend Developer</h2>
-                    <p className="text-lg text-gray-200 mt-4">
-                        I&apos;m a Frontend Developer with experience in HTML, CSS, JAVASCRIPT, TYPESCRIPT, NEXT.JS, TAILWIND CSS, and specialized in building responsive and dynamic websites. Currently learning Artificial Intelligence, Agentic & Robotic AI.
+                    <h3 className="text-4xl font-light">Hi, I'm</h3>
+                    <h1 className="text-5xl font-bold mt-2">Abdullah Ateeq</h1>
+                    <h2 className="text-2xl font-semibold">Frontend Developer</h2>
+                    <p className="text-lg  mt-4">
+                        I'm a Frontend Developer with experience in HTML, CSS, JAVASCRIPT, TYPESCRIPT, NEXT.JS, TAILWIND CSS, and specialized in building responsive and dynamic websites. Currently learning Artificial Intelligence, Agentic & Robotic AI.
                     </p>
                 </div>
 
