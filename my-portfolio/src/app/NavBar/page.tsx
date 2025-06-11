@@ -16,7 +16,7 @@ export default function Navbar() {
             <nav className="shadow-md">
                 <div className="flex justify-between items-center px-6 py-4">
                     {/* Left side logo with margin */}
-                    <div id="logo" className="ml-5 flex items-center space-x-3">
+                     <div id="logo" className="ml-5 flex items-center space-x-3">
                         <Image 
                             src="/logo.jpg"  // Replace with your image path in the 'public' folder
                             alt="Logo"
@@ -39,15 +39,15 @@ export default function Navbar() {
                             Home
                             <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
                         </Link>
-                        <Link href="#about" className="relative group hover:text-blue-400 transition-all duration-300">
+                        <Link href="/about" className="relative group hover:text-blue-400 transition-all duration-300">
                             About
                             <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
                         </Link>
-                        <Link href="/projects" className="relative group hover:text-blue-400 transition-all duration-300">
+                        <Link href="/skills" className="relative group hover:text-blue-400 transition-all duration-300">
                             Skills
                             <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
                         </Link>
-                        <Link href="#projects" className="relative group hover:text-blue-400 transition-all duration-300">
+                        <Link href="/Projects" className="relative group hover:text-blue-400 transition-all duration-300">
                             Projects
                             <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
                         </Link>
