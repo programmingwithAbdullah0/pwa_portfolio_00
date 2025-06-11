@@ -7,9 +7,9 @@ function About() {
       <h1 className="text-4xl font-extrabold mb-6">About Me</h1>
       
       <section className="mb-6">
-        <h2 className="text-2xl font-bold">Hi, I'm Abdullah!</h2>
+        <h2 className="text-2xl font-bold">Hi, I&apos;m Abdullah!</h2>
         <p>
-          I'm a passionate web developer with expertise in both frontend and backend technologies. 
+          I&apos;m a passionate web developer with expertise in both frontend and backend technologies. 
           I specialize in creating user-friendly, responsive web applications.
         </p>
       </section>
