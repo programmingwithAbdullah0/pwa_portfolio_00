@@ -47,7 +47,7 @@ export default function Navbar() {
                             Skills
                             <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
                         </Link>
-                        <Link href="/Projects" className="relative group hover:text-blue-400 transition-all duration-300">
+                        <Link href="/projects" className="relative group hover:text-blue-400 transition-all duration-300">
                             Projects
                             <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
                         </Link>
