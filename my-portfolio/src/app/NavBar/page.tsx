@@ -1,79 +1,90 @@
-'use client';
+'use client'
+import { useState } from 'react';
+import Image from 'next/image';
 
-import React, { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-export default function Navbar() {
-    const [menuOpen, setMenuOpen] = useState(false);
+  return (
+    <nav className="bg-[#030712] text-white px-4 py-5 fixed top-0 left-0 w-full bg-[#030712]/30 backdrop-blur-md z-50">
+      <div className="max-w-7xl mx-auto">
+        {/* Wrap everything in one peer container */}
+        <div className="peer-wrapper relative">
+          {/* Hidden checkbox */}
+          <input
+            type="checkbox"
+            id="menu-toggle"
+            className="hidden peer"
+            checked={menuOpen}
+            onChange={() => setMenuOpen(!menuOpen)}
+          />
 
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-    };
-
-    return (
-        <div>
-            <nav className="shadow-md">
-                <div className="flex justify-between items-center px-6 py-4">
-                    {/* Left side logo with margin */}
-                     <div id="logo" className="ml-5 flex items-center space-x-3">
-                        <Image 
-                            src="/logo.jpg"  // Replace with your image path in the 'public' folder
-                            alt="Logo"
-                            width={50}  // Adjust size as needed
-                            height={50}  // Adjust size as needed
-                            className="rounded-full" // For circular image
-                        />
-                    </div>
-
-                    {/* Hamburger Icon for mobile */}
-                    <div className="md:hidden">
-                        <button onClick={toggleMenu} className="font-extrabold text-2xl">
-                            {menuOpen ? "X" : "☰"}
-                        </button>
-                    </div>
-
-                    {/* Links for desktop */}
-                    <div className={`font-bold ml-40 space-x-10 md:flex ${menuOpen ? 'block' : 'hidden'} md:block`}>
-                        <Link href="/" className="relative group hover:text-blue-400 transition-all duration-300">
-                            Home
-                            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-                        </Link>
-                        <Link href="/about" className="relative group hover:text-blue-400 transition-all duration-300">
-                            About
-                            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-                        </Link>
-                        <Link href="/skills" className="relative group hover:text-blue-400 transition-all duration-300">
-                            Skills
-                            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-                        </Link>
-                        <Link href="/projects" className="relative group hover:text-blue-400 transition-all duration-300">
-                            Projects
-                            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-                        </Link>
-                        <Link href="#services" className="relative group hover:text-blue-400 transition-all duration-300">
-                            Services
-                            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-                        </Link>
-                        <Link href="#contact" className="relative group hover:text-blue-400 transition-all duration-300">
-                            Contact
-                            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-                        </Link>
-                    </div>
-                </div>
-            </nav>
-
-            {/* Mobile Dropdown Menu */}
-            <div className={`md:hidden ${menuOpen ? 'block' : 'hidden'} bg-gray-800 text-white`}>
-                <div className="px-6 py-4">
-                    <Link href="/" className="block py-2 hover:text-blue-400">Home</Link>
-                    <Link href="#about" className="block py-2 hover:text-blue-400">About</Link>
-                    <Link href="#skills" className="block py-2 hover:text-blue-400">Skills</Link>
-                    <Link href="#projects" className="block py-2 hover:text-blue-400">Projects</Link>
-                    <Link href="#services" className="block py-2 hover:text-blue-400">Services</Link>
-                    <Link href="#contact" className="block py-2 hover:text-blue-400">Contact</Link>
-                </div>
+          {/* Top Row */}
+          <div className="flex justify-between items-center">
+            <div className="w-[60px] h-[50px]">
+              <Image 
+              src="/logo.jpg"
+              alt="Logo"
+              width={60}
+              height={50} 
+              className='rounded-full'
+              />
             </div>
+
+            {/* Mobile Toggle Button */}
+            <label
+              htmlFor="menu-toggle"
+              className="md:hidden cursor-pointer"
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </label>
+
+            {/* Desktop Menu */}
+            <div className="hidden md:flex space-x-6">
+              <a href="/about" className="hover:text-gray-300 px-2 py-1">About</a>
+              <a href="/skills" className="hover:text-gray-300 px-2 py-1">Skills</a>
+              <a href="/experience" className="hover:text-gray-300 px-2 py-1">Experience</a>
+              <a href="/projects" className="hover:text-gray-300 px-2 py-1">Project</a>
+              <a href="/contact" className="hover:text-gray-300 px-2 py-1">Contact</a>
+              <a
+                className="bg-[#F9FAFB] text-black px-2 py-1 rounded font-bold"
+                href="dist/Modern Minimalist CV Resume (1).pdf"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
+
+          {/* Mobile Menu */}
+          <div
+            className={`${
+              menuOpen ? 'flex' : 'hidden'
+            } flex-col space-y-2 mt-2 md:hidden border-t-2 border-gray-500`}
+          >
+            <a href="/about" className="block px-4 py-2 hover:bg-gray-700 rounded">About</a>
+            <a href="/skills" className="block px-4 py-2 hover:bg-gray-700 rounded">Skills</a>
+            <a href="/experience" className="block px-4 py-2 hover:text-gray-700 rounded">Experience</a>
+            <a href="/projects" className="block px-4 py-2 hover:bg-gray-700 rounded">Work</a>
+            <a href="/contact" className="block px-4 py-2 hover:bg-gray-700 rounded">Contact</a>
+            <a
+              className="bg-[#F9FAFB] text-black px-2 py-1 rounded-3xl font-bold text-center"
+              href="dist/Modern Minimalist CV Resume (1).pdf"
+            >
+              Download CV
+            </a>
+          </div>
         </div>
-    );
-}
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
