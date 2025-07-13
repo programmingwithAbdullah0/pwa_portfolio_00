@@ -89,12 +89,13 @@ export default function About() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10 relative">
           
           <div className="relative w-full md:w-1/3 mt-10">
-            <div className="absolute top-4 left-4 w-full h-full bg-slate-700 rounded-lg z-0"></div>
+            <div className="absolute top-4 left-4 w-full h-full bg-slate-700 rounded-lg z-0">
+            </div>
             
             {/* Profile Image */}
             <div className="relative z-10">
               <Image
-                src="/portPic.jpg" // Assuming this is in the public directory
+                src="/about.jpg" // Assuming this is in the public directory
                 alt="Profile"
                 width={500} // Set width for the image
                 height={500} // Set height for the image

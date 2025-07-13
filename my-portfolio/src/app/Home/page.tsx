@@ -43,14 +43,15 @@ function Home() {
 
         {/* Profile Image Section */}
         <div className="relative w-48 h-52 sm:w-60 sm:h-64 md:w-72 md:h-80 mx-auto mt-10 md:mt-0">
-          <div className="absolute top-4 left-4 w-[200px] h-[200px] bg-gray-700 rounded-md z-0 mt-10"></div>
+          <div className="absolute top-4 left-4 w-[200px] h-[200px] bg-gray-700 rounded-md z-0 mt-10">
+          </div>
           <div className="relative z-10">
             <Image
-              src="/portPic.jpg" // Change this to your image
+              src="/mainportPic.png" // Change this to your image
               alt="Profile"
               width={200}
               height={200}
-              className="object-cover rounded-md mt-10"
+              className="object-cover rounded-md mt-12"
             />
           </div>
         </div>

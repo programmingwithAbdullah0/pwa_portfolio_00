@@ -35,7 +35,10 @@ export default function Navbar() {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-6">
-              <a href="#about" className="hover:text-gray-300 px-2 py-1">
+              <a href="/" className="hover:text-gray-300 px-2 py-1">
+                Home
+              </a>
+              <a href="/about" className="hover:text-gray-300 px-2 py-1">
                 About
               </a>
               <a href="/skills" className="hover:text-gray-300 px-2 py-1">
@@ -44,8 +47,8 @@ export default function Navbar() {
               <a href="/experience" className="hover:text-gray-300 px-2 py-1">
                 Experience
               </a>
-              <a href="/work" className="hover:text-gray-300 px-2 py-1">
-                Work
+              <a href="/projects" className="hover:text-gray-300 px-2 py-1">
+                Projects
               </a>
               <a href="/contact" className="hover:text-gray-300 px-2 py-1">
                 Contact
@@ -61,6 +64,9 @@ export default function Navbar() {
 
           {/* Mobile Menu */}
           <div className="hidden peer-checked:flex flex-col space-y-2 mt-2 md:hidden border-t-2 border-gray-500">
+            <a href="/" className="block px-4 py-2 hover:bg-gray-700 rounded">
+              Home
+            </a>
             <a href="/about" className="block px-4 py-2 hover:bg-gray-700 rounded">
               About
             </a>
@@ -70,8 +76,8 @@ export default function Navbar() {
             <a href="/experience" className="block px-4 py-2 hover:text-gray-700 rounded">
               Experience
             </a>
-            <a href="/work" className="block px-4 py-2 hover:bg-gray-700 rounded">
-              Work
+            <a href="/projects" className="block px-4 py-2 hover:bg-gray-700 rounded">
+              Projects
             </a>
             <a href="/contact" className="block px-4 py-2 hover:bg-gray-700 rounded">
               Contact
