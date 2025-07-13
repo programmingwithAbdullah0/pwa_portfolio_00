@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className=" text-white px-4 py-5 fixed top-0 left-0 w-full bg-[#030712]/30 backdrop-blur-md z-50">
+    <nav className="text-white px-4 py-5 fixed top-0 left-0 w-full bg-[#030712]/30 backdrop-blur-md z-50">
       <div className="max-w-7xl mx-auto">
         {/* Wrap everything in one peer container */}
         <div className="peer-wrapper relative">
@@ -35,59 +36,57 @@ export default function Navbar() {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-6">
-              <a href="/" className="hover:text-gray-300 px-2 py-1">
-                Home
-              </a>
-              <a href="/about" className="hover:text-gray-300 px-2 py-1">
-                About
-              </a>
-              <a href="/skills" className="hover:text-gray-300 px-2 py-1">
-                Skills
-              </a>
-              <a href="/experience" className="hover:text-gray-300 px-2 py-1">
-                Experience
-              </a>
-              <a href="/projects" className="hover:text-gray-300 px-2 py-1">
-                Projects
-              </a>
-              <a href="/contact" className="hover:text-gray-300 px-2 py-1">
-                Contact
-              </a>
-              <a
-                className="bg-[#F9FAFB] text-black px-2 py-1 rounded font-bold"
-                href="/path/to/your/CV.pdf" // Update the link to your CV
-              >
-                Download CV
-              </a>
+              <Link href="/">
+                <span className="hover:text-gray-300 px-2 py-1">Home</span>
+              </Link>
+              <Link href="/about">
+                <span className="hover:text-gray-300 px-2 py-1">About</span>
+              </Link>
+              <Link href="/skills">
+                <span className="hover:text-gray-300 px-2 py-1">Skills</span>
+              </Link>
+              <Link href="/experience">
+                <span className="hover:text-gray-300 px-2 py-1">Experience</span>
+              </Link>
+              <Link href="/projects">
+                <span className="hover:text-gray-300 px-2 py-1">Projects</span>
+              </Link>
+              <Link href="/contact">
+                <span className="hover:text-gray-300 px-2 py-1">Contact</span>
+              </Link>
+              <Link href="/path/to/your/CV.pdf">
+                <span className="bg-[#F9FAFB] text-black px-2 py-1 rounded font-bold">
+                  Download CV
+                </span>
+              </Link>
             </div>
           </div>
 
           {/* Mobile Menu */}
           <div className="hidden peer-checked:flex flex-col space-y-2 mt-2 md:hidden border-t-2 border-gray-500">
-            <a href="/" className="block px-4 py-2 hover:bg-gray-700 rounded">
-              Home
-            </a>
-            <a href="/about" className="block px-4 py-2 hover:bg-gray-700 rounded">
-              About
-            </a>
-            <a href="/skills" className="block px-4 py-2 hover:bg-gray-700 rounded">
-              Skills
-            </a>
-            <a href="/experience" className="block px-4 py-2 hover:text-gray-700 rounded">
-              Experience
-            </a>
-            <a href="/projects" className="block px-4 py-2 hover:bg-gray-700 rounded">
-              Projects
-            </a>
-            <a href="/contact" className="block px-4 py-2 hover:bg-gray-700 rounded">
-              Contact
-            </a>
-            <a
-              className="bg-[#F9FAFB] text-black px-2 py-1 rounded-3xl font-bold text-center"
-              href="/path/to/your/CV.pdf" // Update the link to your CV
-            >
-              Download CV
-            </a>
+            <Link href="/">
+              <span className="block px-4 py-2 hover:bg-gray-700 rounded">Home</span>
+            </Link>
+            <Link href="/about">
+              <span className="block px-4 py-2 hover:bg-gray-700 rounded">About</span>
+            </Link>
+            <Link href="/skills">
+              <span className="block px-4 py-2 hover:bg-gray-700 rounded">Skills</span>
+            </Link>
+            <Link href="/experience">
+              <span className="block px-4 py-2 hover:bg-gray-700 rounded">Experience</span>
+            </Link>
+            <Link href="/projects">
+              <span className="block px-4 py-2 hover:bg-gray-700 rounded">Projects</span>
+            </Link>
+            <Link href="/contact">
+              <span className="block px-4 py-2 hover:bg-gray-700 rounded">Contact</span>
+            </Link>
+            <Link href="/path/to/your/CV.pdf">
+              <span className="bg-[#F9FAFB] text-black px-2 py-1 rounded-3xl font-bold text-center">
+                Download CV
+              </span>
+            </Link>
           </div>
         </div>
       </div>
