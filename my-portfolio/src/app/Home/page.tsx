@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Home() {
   return (
-    <div className="min-h-screen bg-slate-900 text-white flex items-center justify-center py-10">
+    <div className="min-h-screen bg-slate-900 text-white flex items-center justify-center pt-50 pb-10 md:py-10">
       <section className="max-w-7xl w-full px-6 md:px-12 flex flex-col md:flex-row items-center text-center md:text-left space-y-10 md:space-y-0">
         {/* Content Section */}
         <div className="space-y-6 md:w-1/2 text-center md:text-left">
