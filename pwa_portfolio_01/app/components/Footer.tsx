@@ -42,7 +42,7 @@ export default function Footer() {
           {/* 🌐 Social Media Icons */}
           <div className="flex gap-5 mt-3 text-gray-800">
             <a
-              href="https://www.facebook.com/profile.php?id=61556808426897"
+              href="https://www.facebook.com/abdullah.ateeq.146/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg bg-white shadow hover:bg-[#091057] hover:text-white transition"
@@ -51,7 +51,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://www.instagram.com/huzaifaabdulrab2/?hl=en"
+              href="https://www.instagram.com/itx_.abdullah._khan_"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg bg-white shadow hover:bg-pink-600 hover:text-white transition"
@@ -60,7 +60,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://x.com/H_abdulrab"
+              href="https://x.com/Abdulla71807803"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg bg-white shadow hover:bg-[#1DA1F2] hover:text-white transition"
@@ -69,7 +69,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://github.com/Huzaifaabdulrab"
+              href="https://github.com/programmingwithAbdullah0/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg bg-white shadow hover:bg-gray-900 hover:text-white transition"
@@ -78,7 +78,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://linktr.ee/huzaifaabdulrab"
+              href="https://linktr.ee/AbdullahAteeq"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg bg-white shadow hover:bg-[#091057] hover:text-white transition"
@@ -87,7 +87,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://wa.me/923400292040"
+              href="https://wa.me/923362310043"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg bg-white shadow hover:bg-green-500 hover:text-white transition"

@@ -1,111 +1,83 @@
 {
-  "name": "Huzaifa Abdulrab",
-  "title": "Frontend Developer & Agentic AI Developer",
+  "name": "Abdullah Ateeq",
+  "title": "Agentic AI & Frontend Developer",
   "about": "I’m a passionate frontend developer skilled in HTML, CSS, JavaScript, TypeScript, Next.js, Tailwind CSS, n8n, and Agentic AI automation. I build visually stunning, high-performance, responsive web applications with clean code and modern UI/UX.",
   "quote": "I believe great design isn’t just how it looks — it’s how it feels and performs.",
   "experience_years": "2+ Years",
   "rating": "4.9/5",
   "clients": "4+ Satisfying Clients",
   "location": "Pakistan",
-  "email": "huzaifaabdulrab2@gmail.com",
-  "phone": "+92 340 0292040 / +44 123 654 7890",
-  "website": "https://huzaifaabdulrab.vercel.app",
+  "email": "abdullahateeq331@gmail.com",
+  "phone": "+92 336 2310043 / +92 324 9280085",
+  "website": "https://abdullahateeq.vercel.app",
   "resume": "Available on request",
+  "last_updated": "February 2026",
 
   "skills": [
     "HTML", "CSS/SCSS", "JavaScript", "TypeScript", "React.js", "Next.js 14+", 
-    "Tailwind CSS", "Bootstrap", "Figma", "UI/UX Design", "React Native", 
-    "Responsive Design", "PWA", "Performance Optimization", "Lighthouse 95+", 
-    "SEO & Schema", "PHP", "MySQL", "MongoDB", "Firebase", "REST APIs", 
+    "Tailwind CSS", "Figma", "UI/UX Design", "React Native", 
+    "Responsive Design", "PWA", "Performance Optimization", 
+    "SEO & Schema", "PHP", "MySQL", "MongoDB","REST APIs", 
     "Sanity CMS", "n8n Automation", "Vercel", "Netlify", "GitHub", "VS Code"
   ],
 
   "services": [
     "Frontend Mastery (React, Next.js, TypeScript)",
-    "UI/UX Design & Prototyping (Figma)",
-    "Mobile Development (React Native)",
-    "Performance & SEO Optimization",
-    "Backend & Database (PHP, MySQL, MongoDB, Firebase)",
-    "Deployment & Automation (Vercel, Netlify, n8n)"
+    "Backend & Database (Python, NeonDB)",
+    "Deployment & Automation (Vercel, n8n)",
+    "Content Creation (Youtube, Instagram)"
   ],
 
   "projects": [
     {
-      "name": "Sparkio",
+      "name": "PWA Fragrance Hub",
+      "type": "PWA & Marketplace",
+      "desc": "Progressive Web App for fragrance products showcase with offline support and modern UI.",
+      "live": true,
+      "github": true
+    },
+    {
+      "name": "AW Outfits (E-commerce)",
       "type": "E-commerce",
-      "desc": "A dynamic full-stack e-commerce platform built with Next.js, TypeScript, and Tailwind CSS.",
+      "desc": "Complete e-commerce site for outfits with clean UI and responsive design.",
       "live": true,
       "github": true
     },
     {
-      "name": "SkyTech Official Website",
-      "type": "Client Project",
-      "desc": "Professional software house website for real client. Fully responsive, modern UI.",
-      "live": true,
-      "github": true
-    },
-    {
-      "name": "Corain Work Website",
-      "type": "Corporate",
-      "desc": "Modern corporate-style client project under SkyTech with elegant UI and fast performance.",
-      "live": true,
-      "github": true
-    },
-    {
-      "name": "MyBindle",
-      "type": "Social Web App",
-      "desc": "Social media-style app built with Next.js and deployed on Vercel.",
-      "live": true,
-      "github": true
-    },
-    {
-      "name": "SkyMart",
+      "name": "AW Outfits v2 (E-commerce)",
       "type": "E-commerce",
-      "desc": "Modern responsive e-commerce platform using React, Vite, Tailwind & Bootstrap.",
+      "desc": "Improved version with better UI/UX using modern stack.",
       "live": true,
       "github": true
     },
     {
-      "name": "Market Place Builder",
-      "type": "Car Marketplace",
-      "desc": "Full marketplace platform with Next.js, TypeScript & Sanity CMS.",
+      "name": "Color Changer (NextJS Hooks)",
+      "type": "Interactive App",
+      "desc": "Interactive color changer app using React Hooks in Next.js.",
       "live": true,
       "github": true
     },
     {
-      "name": "Coffie Shop / Sushi Restaurant / Rivo Shopping / SkyPix / Solus Web / GrillUp",
-      "type": "Landing Pages",
-      "desc": "Multiple pixel-perfect static websites converted from Figma to HTML, CSS & Tailwind.",
+      "name": "Portfolio 2.0",
+      "type": "Personal Portfolio",
+      "desc": "Modern personal portfolio with PWA features and clean design.",
       "live": true,
       "github": true
-    }
-  ],
-
-  "experience": [
-    {
-      "company": "Aykays",
-      "role": "Frontend Developer",
-      "duration": "June 2025 – Aug 2025 (Current)",
-      "desc": "Building scalable UI components with Next.js and Tailwind CSS. Working on performance and UX improvements."
     },
     {
-      "company": "Skytech",
-      "role": "Frontend Developer",
-      "duration": "Jan 2025 – June 2025",
-      "desc": "Developed high-performance web apps for real clients using Next.js and React. Focused on responsive design and clean code."
-    },
-    {
-      "company": "Self Projects",
-      "role": "Full Stack Developer",
-      "duration": "Ongoing",
-      "desc": "Built 10+ personal and client projects using modern stack. Hosted on Vercel with full CI/CD."
+      "name": "Todoi App",
+      "type": "Productivity App",
+      "desc": "Simple and clean to-do list application.",
+      "live": true,
+      "github": true
     }
   ],
 
   "social": {
-    "github": "https://github.com/huzaifaabdulrab",
-    "linkedin": "https://linkedin.com/in/huzaifaabdulrab",
-    "twitter": "",
-    "instagram": ""
+    "github": "https://github.com/programmingwithAbdullah0/",
+    "linkedin": "https://www.linkedin.com/in/abdullah-ateeq-3409862a6/",
+    "instagram": "https://www.instagram.com/itx_.abdullah._khan_",
+    "youtube": "https://youtube.com/@programming.withabdullah",
+    "whatsapp": "https://wa.me/923362310043"
   }
 }

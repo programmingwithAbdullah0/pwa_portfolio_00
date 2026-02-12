@@ -79,27 +79,27 @@ export default function Contact() {
 
             {/* SOCIAL ICONS */}
             <div className="flex gap-4 mt-8">
-              <a href="https://www.facebook.com/profile.php?id=61556808426897" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/abdullah.ateeq.146/" target="_blank" rel="noopener noreferrer">
                 <div className="p-3 bg-[#091057] rounded-lg hover:bg-[#0f1a6e] transition">
                   <Facebook className="w-5 h-5 text-white" />
                 </div>
               </a>
-              <a href="https://x.com/H_abdulrab" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/Abdulla71807803" target="_blank" rel="noopener noreferrer">
                 <div className="p-3 bg-[#091057] rounded-lg hover:bg-[#0f1a6e] transition">
                   <Twitter className="w-5 h-5 text-white" />
                 </div>
               </a>
-              <a href="https://github.com/Huzaifaabdulrab" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/programmingwithAbdullah0/" target="_blank" rel="noopener noreferrer">
                 <div className="p-3 bg-[#091057] rounded-lg hover:bg-[#0f1a6e] transition">
                   <Github className="w-5 h-5 text-white" />
                 </div>
               </a>
-              <a href="https://www.instagram.com/huzaifaabdulrab2/?hl=en" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/itx_.abdullah._khan_" target="_blank" rel="noopener noreferrer">
                 <div className="p-3 bg-[#091057] rounded-lg hover:bg-[#0f1a6e] transition">
                   <Instagram className="w-5 h-5 text-white" />
                 </div>
               </a>
-              <a href="https://linktr.ee/huzaifaabdulrab" target="_blank" rel="noopener noreferrer">
+              <a href="https://linktr.ee/AbdullahAteeq" target="_blank" rel="noopener noreferrer">
                 <div className="p-3 bg-[#091057] rounded-lg hover:bg-[#0f1a6e] transition">
                   <Link className="w-5 h-5 text-white" />
                 </div>

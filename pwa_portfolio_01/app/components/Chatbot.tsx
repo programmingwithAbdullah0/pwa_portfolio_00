@@ -7,7 +7,7 @@ import { Bot, Send, X } from 'lucide-react';
 export default function Chatbot() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<{ role: 'user' | 'bot'; text: string }[]>([
-    { role: 'bot', text: "Hi! I'm Huzaifa's AI assistant. How can I help you today?" }
+    { role: 'bot', text: "Hi! I'm Abdullah's AI assistant. How can I help you today?" }
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -120,7 +120,7 @@ export default function Chatbot() {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyDown={(e) => e.key === 'Enter' && !e.shiftKey && sendMessage()}
-                  placeholder="Ask me anything about Huzaifa..."
+                  placeholder="Ask me anything about Abdullah..."
                   className="flex-1 px-5 py-3 bg-gray-100 dark:bg-gray-800 border border-[#e3e3e3]/50 rounded-full focus:outline-none focus:border-[#091057] transition text-gray-800 dark:text-white placeholder-gray-500"
                 />
                 <button
