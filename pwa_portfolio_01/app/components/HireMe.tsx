@@ -12,7 +12,7 @@ const HireMe: React.FC = () => {
       className="relative w-full min-h-screen flex flex-col items-center justify-center gap-10 overflow-hidden  py-30"
     >
     
-      {/* 🔹 Title Section (Top Center) */}
+      {/*  Title Section (Top Center) */}
       <div className="text-center mb-10 ">
         <h2 className="text-4xl md:text-5xl font-bold text-[#091057] drop-shadow-sm">
           Why <span className="text-gray-700">Hire Me?</span>
@@ -23,9 +23,9 @@ const HireMe: React.FC = () => {
         </p>
       </div>
 
-      {/* 🔸 Main Content Container */}
+      {/*  Main Content Container */}
       <div className="flex flex-col-reverse lg:flex-row-reverse items-center justify-around max-w-6xl w-full gap-20">
-        {/* 🧠 Right Side - Text with heading on top */}
+        {/* Right Side - Text with heading on top */}
         <div className="flex-1 text-center lg:text-left space-y-4 relative">
           {/* Same heading on right side */}
           <div className="mb-4 lg:mb-6">
@@ -35,7 +35,7 @@ const HireMe: React.FC = () => {
           </div>
 
           <h4 className="text-2xl md:text-3xl font-semibold text-[#091057]">
-            Turning Ideas Into Reality ✨
+            Turning Ideas Into Reality 
           </h4>
           <p className="text-gray-700 leading-relaxed text-sm md:text-base">
             I am <span className="font-semibold text-[#091057]">Abdullah</span>,
@@ -43,11 +43,11 @@ const HireMe: React.FC = () => {
             My aim is to build visually stunning, high-performance websites that provide seamless user experiences.
           </p>
 
-          <ul className="space-y-2 text-gray-600 text-sm md:text-base mt-4">
-            <li>✅ 2 years of hands-on experience in Frontend Development</li>
-            <li>✅ Strong grip in React & NextJS Development</li>
-            <li>✅ Currently learning Spec-Driven Development & AI-Driven Development</li>
-            <li>✅ Aim to learn & master Agentic AI & Full Stack Development</li>
+          <ul className="space-y-2 text-gray-600 text-md md:text-base mt-4">
+            <li> 2 years of hands-on experience in Frontend Development</li>
+            <li> Strong grip in React & NextJS Development</li>
+            <li> Currently learning Spec-Driven Development & AI-Driven Development</li>
+            <li> Aim to learn & master Agentic AI & Full Stack Development</li>
           </ul>
 
           <div className="mt-6 flex justify-center lg:justify-start gap-4">
@@ -67,7 +67,7 @@ const HireMe: React.FC = () => {
           </div>
         </div>
 
-       {/* 🧑‍💻 Left Side - Image (crossing top circle) */}
+       {/*  Left Side - Image (crossing top circle) */}
 <div className="relative mt-10 flex justify-center items-center">
         <div className="absolute   lg:w-120 lg:h-80 rounded-t-full h-80 w-80 md:w-96 md:h-96  bg-[#091057]  blur-xl rounded-full blur-[]  opacity-25 animate-pulse"></div>
     <div className="absolute bottom-[-100px] -top-20 left-10  w-[400px] h-[400px] bg-[#e3e3e3] rounded-full  blur-[130px]  opacity-30 animate-pulse"></div>
@@ -90,7 +90,7 @@ const HireMe: React.FC = () => {
 
       {/* 💫 Bottom Quote */}
       <div className="text-center mt-16 max-w-3xl mx-auto">
-        <p className="italic text-gray-600 text-sm md:text-base">
+        <p className="italic text-gray-600 text-xl md:text-base">
           “My interest is to build a website with best user experience and best performance”
         </p>
         <h4 className="text-[#091057] mt-4 font-semibold text-lg">

@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import MyImage from "../../public/abdullahateeq.png";
-import Logo from "../../public/PWA_logo.png";
+import Logo from "../../public/programmingwithabdullah.jpeg";
 import ActionButtons from "./Button";
 
 const ScreenSection = () => {
@@ -48,10 +48,11 @@ const ScreenSection = () => {
         </ul>
 
         {/* Logo */}
-        <div className="flex justify-center items-center">
+        <div className="">
+        {/* flex justify-center items-center */}
           <Image 
           src={Logo} 
-          alt="HA logo" 
+          alt="Programming with Abdullah" 
           width={60} 
           height={60} 
           className="rounded-full"

@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Logo from "../../public/PWA_logo.png";
+import Logo from "../../public/programmingwithabdullah.jpeg";
 import { Facebook, Instagram, Twitter, Github, Link as LinkIcon,  SendHorizonal } from "lucide-react";
 import { BsWhatsapp } from "react-icons/bs";
 
@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4 md:w-1/3">
           <Image 
           src={Logo} 
-          alt="My Logo" 
+          alt="Programming with Abdullah" 
           width={60} 
           height={60} 
           className="rounded-full"
