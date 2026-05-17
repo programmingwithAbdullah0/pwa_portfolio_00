@@ -43,7 +43,7 @@ export default function WorkExperience() {
 
   return (
     <section
-    id='exprience'
+    id='experience'
     className="relative bg-white/50 py-24  lg:py-32 overflow-hidden">
       {/* Header */}
       <div className="text-center mb-20">

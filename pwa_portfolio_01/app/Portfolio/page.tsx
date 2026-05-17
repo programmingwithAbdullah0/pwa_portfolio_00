@@ -1,5 +1,6 @@
 "use client";
 
+import Certifications from "../components/Certifications";
 import Contact from "../components/Contact";
 import DiamondSec from "../components/diamondSec";
 import Footer from "../components/Footer";
@@ -18,6 +19,8 @@ export default function Portfolio() {
       <HireMe />
       <DiamondSec/>
       <Skills/>
+      <DiamondSec/>
+      <Certifications />
       <DiamondSec/>
       {/* <ServicesSection/> */}
       {/* <DiamondSec/> */}

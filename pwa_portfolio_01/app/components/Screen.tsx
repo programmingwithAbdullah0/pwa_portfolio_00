@@ -12,12 +12,12 @@ const ScreenSection = () => {
     { name: "About", href: "#about" },
     { name: "Why Hire Me", href: "#Hire" },
     { name: "Skills", href: "#skills" },
-    // { name: "Services", href: "#services" },
+    { name: "Certifications", href: "#certifications" },
   ];
 
   const rightLinks = [
     { name: "Project", href: "#project" },
-    // { name: "Idea", href: "#idea" },
+    { name: "Idea", href: "#idea" },
     { name: "Experience", href: "#experience" },
     { name: "Contact", href: "#contact" }
   ];
