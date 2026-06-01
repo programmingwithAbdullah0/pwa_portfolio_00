@@ -20,7 +20,7 @@ export default function Portfolio() {
       <DiamondSec/>
       <Skills/>
       <DiamondSec/>
-      <Certifications />
+      <Certifications limit={3} />
       <DiamondSec/>
       {/* <ServicesSection/> */}
       {/* <DiamondSec/> */}

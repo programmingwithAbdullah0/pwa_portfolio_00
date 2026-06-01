@@ -5,7 +5,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub, FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import { projectData } from "./projectData";
+import projectData from "@/data/projects.json";
 
 export default function ProjectSection() {
   const [currentIndex, setCurrentIndex] = useState(0);

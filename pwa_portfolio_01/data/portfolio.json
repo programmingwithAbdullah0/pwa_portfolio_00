@@ -28,51 +28,6 @@
     "Content Creation (Youtube, Instagram)"
   ],
 
-  "projects": [
-    {
-      "name": "PWA Fragrance Hub",
-      "type": "PWA & Marketplace",
-      "desc": "Progressive Web App for fragrance products showcase with offline support and modern UI.",
-      "live": true,
-      "github": true
-    },
-    {
-      "name": "AW Outfits (E-commerce)",
-      "type": "E-commerce",
-      "desc": "Complete e-commerce site for outfits with clean UI and responsive design.",
-      "live": true,
-      "github": true
-    },
-    {
-      "name": "AW Outfits v2 (E-commerce)",
-      "type": "E-commerce",
-      "desc": "Improved version with better UI/UX using modern stack.",
-      "live": true,
-      "github": true
-    },
-    {
-      "name": "Color Changer (NextJS Hooks)",
-      "type": "Interactive App",
-      "desc": "Interactive color changer app using React Hooks in Next.js.",
-      "live": true,
-      "github": true
-    },
-    {
-      "name": "Portfolio 2.0",
-      "type": "Personal Portfolio",
-      "desc": "Modern personal portfolio with PWA features and clean design.",
-      "live": true,
-      "github": true
-    },
-    {
-      "name": "Todoi App",
-      "type": "Productivity App",
-      "desc": "Simple and clean to-do list application.",
-      "live": true,
-      "github": true
-    }
-  ],
-
   "social": {
     "github": "https://github.com/programmingwithAbdullah0/",
     "linkedin": "https://www.linkedin.com/in/abdullah-ateeq-3409862a6/",

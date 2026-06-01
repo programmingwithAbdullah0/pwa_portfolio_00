@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Certified Google AI",
+    "issuer": "Google",
+    "date": "2024",
+    "image": "/certifications/Certified_GoogleAI.png",
+    "description": "Comprehensive certification covering Google AI foundations and tools.",
+    "link": "/certifications/Certified_GoogleAI.png",
+    "iconColor": "text-blue-500"
+  },
+  {
+    "title": "Cyber Security",
+    "issuer": "NED University",
+    "date": "2024",
+    "image": "/certifications/CyberSecurity_by_NED.png",
+    "description": "Advanced training in cyber security principles and practices.",
+    "link": "/certifications/CyberSecurity_by_NED.png",
+    "iconColor": "text-red-500"
+  },
+  {
+    "title": "Introduction to Cyber Security",
+    "issuer": "Cisco / Networking Academy",
+    "date": "2023",
+    "image": "/certifications/Intro_to_cyberSecurity.png",
+    "description": "Foundational course on cyber security threats and defense mechanisms.",
+    "link": "/certifications/Intro_to_cyberSecurity.pdf",
+    "iconColor": "text-green-500"
+  },
+  {
+    "title": "Introduction to Modern AI",
+    "issuer": "Cisco / Networking Academy",
+    "date": "2024",
+    "image": "/certifications/Intro_to_ModernAI.png",
+    "description": "Learning the latest trends and technologies in modern Artificial Intelligence.",
+    "link": "/certifications/Intro_to_ModernAI.pdf",
+    "iconColor": "text-purple-500"
+  },
+  {
+    "title": "Data Science with Python",
+    "issuer": "MindLuster",
+    "date": "2024",
+    "image": "/certifications/MindLuster_DS_With_Python.png",
+    "description": "Mastered data analysis and visualization using Python libraries.",
+    "link": "/certifications/MindLuster_DS_With_Python.png",
+    "iconColor": "text-yellow-500"
+  },
+  {
+    "title": "SMEC Sir Syed",
+    "issuer": "Sir Syed University",
+    "date": "2023",
+    "image": "/certifications/SMEC_SirSyed.png",
+    "description": "Certification from SMEC at Sir Syed University of Engineering and Technology.",
+    "link": "/certifications/SMEC_SirSyed.png",
+    "iconColor": "text-blue-600"
+  }
+]
