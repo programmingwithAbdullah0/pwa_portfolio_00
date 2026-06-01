@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import MyImage from "../../public/abdullahateeq.png";
 import Logo from "../../public/programmingwithabdullah.jpeg";
+import Link from "next/link";
 import ActionButtons from "./Button";
 
 const ScreenSection = () => {
@@ -12,7 +13,7 @@ const ScreenSection = () => {
     { name: "About", href: "#about" },
     { name: "Why Hire Me", href: "#Hire" },
     { name: "Skills", href: "#skills" },
-    { name: "Certifications", href: "#certifications" },
+    { name: "Certifications", href: "/certifications" },
   ];
 
   const rightLinks = [
@@ -36,13 +37,13 @@ const ScreenSection = () => {
         <ul className="hidden md:flex justify-center items-center gap-10 text-[16px] font-medium">
           {leftLinks.map((item, index) => (
             <li key={index} className="relative group">
-              <a
+              <Link
                 href={item.href}
                 className="relative cursor-pointer transition-colors duration-300 ease-in-out hover:text-[#091057] px-4 py-2 rounded-full"
               >
                 {item.name}
                 <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#091057] transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -63,13 +64,13 @@ const ScreenSection = () => {
         <ul className="hidden md:flex justify-center items-center gap-10 text-[16px] font-medium">
           {rightLinks.map((item, index) => (
             <li key={index} className="relative group">
-              <a
+              <Link
                 href={item.href}
                 className="relative cursor-pointer transition-colors duration-300 ease-in-out hover:text-[#091057] px-4 py-2 rounded-full"
               >
                 {item.name}
                 <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#091057] transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -104,14 +105,14 @@ const ScreenSection = () => {
           }`}
         >
           {[...leftLinks, ...rightLinks].map((item, index) => (
-            <a
+            <Link
               key={`${item.name}-${isOpen}`} // Re-render trigger
               href={item.href}
               className={`relative text-white bg-[#091057]/70 hover:bg-[#091057] py-2 rounded-full cursor-pointer transition-all duration-300 drop-item-${index}`}
               onClick={() => setIsOpen(false)}
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
       </nav>
