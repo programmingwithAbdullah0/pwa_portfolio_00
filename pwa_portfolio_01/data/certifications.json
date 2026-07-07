@@ -1,56 +1,175 @@
 [
   {
-    "title": "Certified Google AI",
-    "issuer": "Google",
+    "title": "AI Fundamentals by Google",
+    "issuer": "Coursera | Google",
     "date": "2024",
-    "image": "/certifications/Certified_GoogleAI.png",
-    "description": "Comprehensive certification covering Google AI foundations and tools.",
-    "link": "/certifications/Certified_GoogleAI.png",
-    "iconColor": "text-blue-500"
+    "image": "/Certifications/Coursera PQNBP8APEB1S (Google AI)-1.png",
+    "description": "Comprehensive certification covering Google AI fundamentals, machine learning concepts, and cloud-based AI solutions through Coursera.",
+    "link": "/Certifications/Coursera PQNBP8APEB1S (Google AI)-1.png",
+    "iconColor": "text-blue-600",
+    "isGoogleGroup": true,
+    "subCertifications": [
+      {
+        "title": "Google AI Essentials",
+        "issuer": "Coursera | Google",
+        "image": "/Certifications/AI Fundamentals by Coursera X Google.png",
+        "link": "/Certifications/AI Fundamentals by Coursera X Google.png"
+      },
+      {
+        "title": "Google Cloud Skills",
+        "issuer": "Coursera | Google",
+        "image": "/Certifications/Coursera ONH73N4LBPRA-1.png",
+        "link": "/Certifications/Coursera ONH73N4LBPRA-1.png"
+      },
+      {
+        "title": "Google AI Tools",
+        "issuer": "Coursera | Google",
+        "image": "/Certifications/Coursera M4R6KXNR9PWI-1.png",
+        "link": "/Certifications/Coursera M4R6KXNR9PWI-1.png"
+      },
+      {
+        "title": "Google Cloud AI",
+        "issuer": "Coursera | Google",
+        "image": "/Certifications/Coursera LLKUPCPB0NDB-1.png",
+        "link": "/Certifications/Coursera LLKUPCPB0NDB-1.png"
+      },
+      {
+        "title": "Google AI Development",
+        "issuer": "Coursera | Google",
+        "image": "/Certifications/Coursera G8MZBS1SXR4R-1.png",
+        "link": "/Certifications/Coursera G8MZBS1SXR4R-1.png"
+      },
+      {
+        "title": "Google Tech Essentials",
+        "issuer": "Coursera | Google",
+        "image": "/Certifications/Coursera F3Z3EBHS82LL-1.png",
+        "link": "/Certifications/Coursera F3Z3EBHS82LL-1.png"
+      },
+      {
+        "title": "Google AI Practitioner",
+        "issuer": "Coursera | Google",
+        "image": "/Certifications/Coursera C7CQ580338PE-1.png",
+        "link": "/Certifications/Coursera C7CQ580338PE-1.png"
+      }
+    ]
   },
   {
-    "title": "Cyber Security",
-    "issuer": "NED University",
+    "title": "Certified Cyber Security & Ethical Hacking",
+    "issuer": "NED University of Engineering & Technology | PITP",
     "date": "2024",
-    "image": "/certifications/CyberSecurity_by_NED.png",
-    "description": "Advanced training in cyber security principles and practices.",
-    "link": "/certifications/CyberSecurity_by_NED.png",
+    "image": "/Certifications/Certified Cyber Security & Ethical Hacking by NED PITP - II  Batch - I.jpeg",
+    "description": "Advanced training in cyber security principles, ethical hacking methodologies, and penetration testing practices.",
+    "link": "/Certifications/Certified Cyber Security & Ethical Hacking by NED PITP - II  Batch - I.jpeg",
     "iconColor": "text-red-500"
   },
   {
     "title": "Introduction to Cyber Security",
     "issuer": "Cisco / Networking Academy",
     "date": "2023",
-    "image": "/certifications/Intro_to_cyberSecurity.png",
-    "description": "Foundational course on cyber security threats and defense mechanisms.",
-    "link": "/certifications/Intro_to_cyberSecurity.pdf",
+    "image": "/Certifications/IntroductiontoCybersecurity.png",
+    "description": "Foundational course on cyber security threats, defense mechanisms, and network security fundamentals.",
+    "link": "/Certifications/IntroductiontoCybersecurity.png",
     "iconColor": "text-green-500"
   },
   {
     "title": "Introduction to Modern AI",
     "issuer": "Cisco / Networking Academy",
     "date": "2024",
-    "image": "/certifications/Intro_to_ModernAI.png",
-    "description": "Learning the latest trends and technologies in modern Artificial Intelligence.",
-    "link": "/certifications/Intro_to_ModernAI.pdf",
+    "image": "/Certifications/IntroductiontoModernAI.png",
+    "description": "Learning the latest trends and technologies in modern Artificial Intelligence and machine learning.",
+    "link": "/Certifications/IntroductiontoModernAI.png",
     "iconColor": "text-purple-500"
+  },
+   {
+    "title": "Certified Claude with Google Vertex AI",
+    "issuer": "Anthropic | Google Cloud",
+    "date": "2024",
+    "image": "/Certifications/certified claude with google vertex ai-1.png",
+    "description": "Certification covering Claude AI model integration and deployment using Google Vertex AI platform.",
+    "link": "/Certifications/certified claude with google vertex ai-1.png",
+    "iconColor": "text-green-700"
+  },
+  {
+    "title": "AI Concepts for Developers & Tech Professionals",
+    "issuer": "Google",
+    "date": "2024",
+    "image": "/Certifications/AI concepts for developers and technology professionals.png",
+    "description": "Comprehensive understanding of AI concepts, tools, and frameworks for developers and technology professionals.",
+    "link": "/Certifications/AI concepts for developers and technology professionals.png",
+    "iconColor": "text-blue-500"
   },
   {
     "title": "Data Science with Python",
     "issuer": "MindLuster",
     "date": "2024",
-    "image": "/certifications/MindLuster_DS_With_Python.png",
-    "description": "Mastered data analysis and visualization using Python libraries.",
-    "link": "/certifications/MindLuster_DS_With_Python.png",
+    "image": "/Certifications/MindLusterDSWithPython.png",
+    "description": "Mastered data analysis, visualization, and machine learning using Python libraries and tools.",
+    "link": "/Certifications/MindLusterDSWithPython.png",
     "iconColor": "text-yellow-500"
   },
   {
     "title": "SMEC Sir Syed",
     "issuer": "Sir Syed University",
     "date": "2023",
-    "image": "/certifications/SMEC_SirSyed.png",
-    "description": "Certification from SMEC at Sir Syed University of Engineering and Technology.",
-    "link": "/certifications/SMEC_SirSyed.png",
+    "image": "/Certifications/SSUETSMEC.png",
+    "description": "Certification from SMEC at Sir Syed University of Engineering and Technology for engineering excellence.",
+    "link": "/Certifications/SSUETSMEC.png",
     "iconColor": "text-blue-600"
+  },
+  {
+    "title": "AWS Cloud Practitioner Essentials",
+    "issuer": "Amazon Web Services",
+    "date": "2024",
+    "image": "/Certifications/AWS Cloud Practitioner Essentials.png",
+    "description": "Fundamental understanding of AWS cloud services, security architecture, pricing models, and core AWS services.",
+    "link": "/Certifications/AWS Cloud Practitioner Essentials.png",
+    "iconColor": "text-orange-500"
+  },
+ 
+  {
+    "title": "Claude 101",
+    "issuer": "Anthropic",
+    "date": "2024",
+    "image": "/Certifications/Claude 101.png",
+    "description": "Foundational certification covering Claude AI capabilities, prompt engineering, and practical applications.",
+    "link": "/Certifications/Claude 101.png",
+    "iconColor": "text-emerald-600"
+  },
+  
+  {
+    "title": "Introduction to AI Concepts",
+    "issuer": "Coursera",
+    "date": "2024",
+    "image": "/Certifications/Introduction to AI concepts.png",
+    "description": "Foundational course exploring core AI concepts, applications, and real-world implementations.",
+    "link": "/Certifications/Introduction to AI concepts.png",
+    "iconColor": "text-indigo-500"
+  },
+  {
+    "title": "Data Analytics Job Simulation",
+    "issuer": "Deloitte",
+    "date": "2024",
+    "image": "/Certifications/Data Analytics Job Simulation from Deloitee.png",
+    "description": "Hands-on job simulation covering data analytics workflows, tools, and business intelligence at Deloitte.",
+    "link": "/Certifications/Data Analytics Job Simulation from Deloitee.png",
+    "iconColor": "text-green-600"
+  },
+  {
+    "title": "Introduction to Cloud Job Simulation",
+    "issuer": "DATACOM",
+    "date": "2024",
+    "image": "/Certifications/Introduction to Cloud Job Simulation DATACOM Forage-1.png",
+    "description": "Practical job simulation covering cloud computing fundamentals and real-world cloud infrastructure scenarios.",
+    "link": "/Certifications/Introduction to Cloud Job Simulation DATACOM Forage-1.png",
+    "iconColor": "text-cyan-600"
+  },
+  {
+    "title": "TypeScript",
+    "issuer": "Coursera",
+    "date": "2024",
+    "image": "/Certifications/TypeScript Coursera.png",
+    "description": "Comprehensive certification covering TypeScript fundamentals, types, interfaces, and advanced programming concepts.",
+    "link": "/Certifications/TypeScript Coursera.png",
+    "iconColor": "text-blue-700"
   }
 ]

@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import Logo from "../../public/programmingwithabdullah.jpeg";
 import { Facebook, Instagram, Twitter, Github, Link as LinkIcon,  SendHorizonal } from "lucide-react";
 import { BsWhatsapp } from "react-icons/bs";
@@ -108,6 +109,9 @@ export default function Footer() {
             <li className="hover:text-[#091057] cursor-pointer transition">Resume</li>
             <li className="hover:text-[#091057] cursor-pointer transition">Experience</li>
             <li className="hover:text-[#091057] cursor-pointer transition">Project</li>
+            <li>
+              <Link href="/certifications" className="hover:text-[#091057] cursor-pointer transition">Certifications</Link>
+            </li>
           </ul>
 
           {/* Contact Info */}
